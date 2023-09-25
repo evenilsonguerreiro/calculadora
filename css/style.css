@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,purple,rgb(48, 3, 48));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: yellow;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 10px;
+}
+#res{
+    text-align: right;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 2.2em; 
+    border: 1px solid yellow;   
+}
+
+#fundo{
+    background-color: black;
+    width: 310px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(162, 161, 159);
+    width: 70px;
+    height: 70px;
+    font-size: 1.9em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    margin: 2px;    
+}
+button:hover{
+    background-color: rgb(96, 160, 225);
+    color: white;
+}
+#igual{
+    height: 144px;
+}
+#zero{
+    width: 144px;
+}
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+@media (min-width:320px) and (max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+    #fundo{
+        width: 300px;
+        padding: 5px;
+    }
+    #res{
+        width: 290px;
+        height: 40px;
+        font-size: 2em;
+    }
+    table{
+
+    }
+    button{
+        width: 70px;
+        height: 70px;
+        font-size: 1.3em;
+        margin: 1px;
+    }
+    #igual{
+        height: 144px;
+    }
+    #zero{
+        width: 144px;
+    }
+}
